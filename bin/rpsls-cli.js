@@ -6,8 +6,8 @@ import minimist from 'minimist';
 var argv = minimist(process.argv.slice(2));
 
 if (argv.h || argv.help) {
-    console.log(`Usage: node-rps [MOVE]
-    Play Rock Paper Scissors (RPS)
+    console.log(`Usage: node-rpsls [MOVE]
+    Play the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)
     
       -h, --help      display this help message and exit
       -r, --rules     display the rules and exit
@@ -22,7 +22,7 @@ if (argv.h || argv.help) {
 }
 
 if (argv.r || argv.rules){
-    console.log(`Rules for Rock Paper Scissors:
+    console.log(`Rules for the Lizard-Spock Espansion of Rock Paper Scissors:
     - Scissors CUTS Paper
     - Paper COVERS Rock
     - Rock CRUSHES Scissors
