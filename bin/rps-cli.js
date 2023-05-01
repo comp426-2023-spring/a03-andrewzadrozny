@@ -6,7 +6,7 @@ import minimist from 'minimist';
 var argv = minimist(process.argv.slice(2));
 
 if (argv.h || argv.help) {
-    console.log(`Usage: node-rps [SHOT]
+    console.log(`Usage: node-rps [MOVE]
     Play Rock Paper Scissors (RPS)
     
       -h, --help      display this help message and exit
@@ -33,7 +33,7 @@ if (argv.r || argv.rules){
 const res = rps(argv._[0]);
 
 if (res === undefined) {
-    console.log(`Usage: node-rps [SHOT]
+    console.log(`Usage: node-rps [MOVE]
         Play Rock Paper Scissors (RPS)
         
           -h, --help      display this help message and exit
